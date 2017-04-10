@@ -1,0 +1,78 @@
+$maincolor: mediumpurple;
+$secondcolor : purple;
+@function mywidth($n) {
+  @return ($n * 30) + px;
+}
+$h : 60px;
+@function myheight($k) {
+	@return ($h + $k);
+}
+@function fontsize($f) {
+	@return ($h/$f) + px;
+}
+$p: 5px;
+@function mypad($m) {
+ @return ($p * $m);
+}
+$per: 0.2;
+@function mypercent($c) {
+	@return(($per + $c) * ($per + $c));
+}
+* {
+	box-sizing: border-box;
+}
+.main {
+	width: mywidth(39);
+	margin: 0 auto;
+	.step1 {
+	width: mywidth(4);
+	height: myheight(0px);
+	background-color: lighten($maincolor,percentage(mypercent(0.2)));
+	p {
+		font-size: fontsize(6px);
+		color: $secondcolor;
+		padding-top: mypad(1);
+	}
+}
+	.step2{
+	width: mywidth(5);
+	height: myheight(5px);
+    background-color: lighten($maincolor,percentage(mypercent(0.1)));
+	p {
+		font-size: fontsize(4px);
+		color: $secondcolor;
+		padding-top: mypad(2);
+	}
+}
+
+	.step3 {
+	width: mywidth(6);
+	height: myheight(10px);
+	background-color: darken($maincolor,percentage(mypercent(0)));
+	p {
+		font-size: fontsize(3px);
+		color: $secondcolor;
+		padding-top: mypad(3);
+	}
+}
+	.step4 {
+	width: mywidth(7);
+	height: myheight(15px);
+	background-color: darken($maincolor,percentage(mypercent(0.15)));
+	p {
+		font-size: fontsize(2.4px);
+		color: $secondcolor;
+		padding-top: mypad(4);
+	}
+}
+	.step5 {
+	width: mywidth(8);
+	height: myheight(20px);
+	background-color: darken($maincolor,percentage(mypercent(0.3)));
+	p {
+		font-size: fontsize(2px);
+		color: $secondcolor;
+		padding-top: mypad(5);
+	}
+}
+}

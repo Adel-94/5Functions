@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box; }
+
+.main {
+  width: 1170px;
+  margin: 0 auto; }
+  .main .step1 {
+    width: 120px;
+    height: 60px;
+    background-color: #c4b1eb; }
+    .main .step1 p {
+      font-size: 10px;
+      color: purple;
+      padding-top: 5px; }
+  .main .step2 {
+    width: 150px;
+    height: 65px;
+    background-color: #af95e4; }
+    .main .step2 p {
+      font-size: 15px;
+      color: purple;
+      padding-top: 10px; }
+  .main .step3 {
+    width: 180px;
+    height: 70px;
+    background-color: #8760d7; }
+    .main .step3 p {
+      font-size: 20px;
+      color: purple;
+      padding-top: 15px; }
+  .main .step4 {
+    width: 210px;
+    height: 75px;
+    background-color: #6d3ece; }
+    .main .step4 p {
+      font-size: 25px;
+      color: purple;
+      padding-top: 20px; }
+  .main .step5 {
+    width: 240px;
+    height: 80px;
+    background-color: #5129a3; }
+    .main .step5 p {
+      font-size: 30px;
+      color: purple;
+      padding-top: 25px; }
+
+/*# sourceMappingURL=style.css.map */

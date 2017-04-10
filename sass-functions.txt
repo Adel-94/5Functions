@@ -1,0 +1,8 @@
+Umumiyyetle,Sass ,CSS -i daha asan ve tez yazmagimiza komek edir.Kodlari daha kompakt,yigcam sekilde yazmaq mumkundur.
+Hemcinin  Sass  funksiyalari da eyni isi gorur.
+CSS-de daha cox renglerle islediyimiz ucun rgb ve hsl functions fikrimce daha elverislidir.
+darken($color, $amount) ,lighten($color, $amount), mix($color1, $color2, [$weight]) ve s. Bir reng tonunun seffaf,tund,mat, ve s.
+tonlarini almaq istediyimizde hsl functions-lar istifade olunur.mix vasitesile 2 ferqli rengin qarisigini ala bilerik.
+String function-lar icerisinden  en cox lazim olunanlar fikrimce asagidakilardir: to-lower-case($string),to-upper-case($string)
+List function-lar icerisinden ise length(list) qeyd etmek olar.bu funksiyani istifade etmekle listin uzunlugunu ala bilerik:
+length(10px 20px 30px 40px) => 4
